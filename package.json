@@ -1,0 +1,17 @@
+{
+  "name": "shawwn-luvit",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shawwn/node-luvit.git",
+  "author": "Shawn Presser <shawnpresser@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "bash -c '(git clone https://github.com/luvit/luvit || exit 0) && cd luvit && make luvit'"
+  },
+  "bin": {
+    "luvit": "luvit/luvit",
+    "luvi": "luvit/luvi",
+    "lit": "luvit/lit"
+  },
+  "dependencies": {}
+}

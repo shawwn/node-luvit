@@ -6,7 +6,8 @@
   "author": "Shawn Presser <shawnpresser@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "install": "bash -c '(git clone https://github.com/luvit/luvit || exit 0) && cd luvit && make luvit'"
+    "install": "cd luvit && make luvit",
+    "prepublish": "cd luvit && make clean"
   },
   "bin": {
     "luvit": "luvit/luvit",

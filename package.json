@@ -6,9 +6,9 @@
   "author": "Shawn Presser <shawnpresser@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "preinstall": "cd luvit && make luvit",
-    "install": "cd luvit && make luvit",
-    "postinstall": "cd luvit && make luvit",
+    "preinstall": "cd luvit && make luvit && luvit --version || exit 0",
+    "install": "cd luvit && make luvit && luvit --version || exit 0",
+    "postinstall": "cd luvit && make luvit && luvit --version || exit 0",
     "prepublish": "cd luvit && make clean"
   },
   "bin": {

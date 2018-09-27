@@ -1,6 +1,6 @@
 {
   "name": "luvit",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "index.js",
   "repository": "https://github.com/shawwn/node-luvit.git",
   "author": "Shawn Presser <shawnpresser@gmail.com>",

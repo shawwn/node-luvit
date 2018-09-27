@@ -6,9 +6,9 @@
   "author": "Shawn Presser <shawnpresser@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "preinstall": "cd luvit && make luvit; mklink luvit luvit.exe || exit 0; mklink luvi luvi.exe || exit 0; mklink lit lit.exe || exit 0",
-    "install": "cd luvit && make luvit; mklink luvit luvit.exe || exit 0; mklink luvi luvi.exe || exit 0; mklink lit lit.exe || exit 0",
-    "postinstall": "cd luvit && make luvit; mklink luvit luvit.exe || exit 0; mklink luvi luvi.exe || exit 0; mklink lit lit.exe || exit 0",
+    "preinstall": "cd luvit && make luvit",
+    "install": "cd luvit && make luvit",
+    "postinstall": "cd luvit && make luvit",
     "prepublish": "cd luvit && make clean"
   },
   "bin": {
